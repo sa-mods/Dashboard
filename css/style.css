@@ -39,7 +39,7 @@ body {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 25px;
-    background: #00d4ff;
+    background: #008000; /*#00d4ff;*/
     color: #000;
     border-radius: 30px;
     text-decoration: none;
@@ -150,5 +150,30 @@ footer {
     font-size: 0.9rem;
     color: #00d4ff;
     font-weight: 600;
+    margin-left: 10px;
+}
+.certificadosdownload {
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
 }
 
+select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #1e40af;
+}
